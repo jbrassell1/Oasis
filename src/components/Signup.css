@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+}
+
+.signup{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.897);
+    
+}
+
+
+
+.signup-header h1 {
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 70px;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 400px; 
+    color: white;
+}
+
+#cancelBtn {
+    position: relative;
+    width: 100px;
+}
+
+#cancelBtn:hover {
+    background-color: rgba(255, 255, 255, 0.589);
+}
+
+#signupBtn {
+    margin-top: 5px;
+}
+#signupBtn:hover {
+    background-color: rgba(255, 255, 255, 0.589);
+}
+.signupOptions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5px; 
+    align-items:  center;
+}
+
+.signupOptions p {
+    margin: 0;
+    align-content: center;
+}
+.signupOptions a:hover {
+    cursor: pointer;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.password-container {
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+
+label{
+    margin: 0;
+}
+

@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+}
+
+.Login{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.897);
+    
+}
+
+
+
+.login-header h1 {
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 70px;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 400px; 
+    color: white;
+}
+
+#cancelBtn {
+    position: relative;
+    width: 100px;
+}
+
+#cancelBtn:hover {
+    background-color: rgba(255, 255, 255, 0.589);
+}
+
+#signupBtn {
+    margin-top: 3px;
+    width: 100%;
+}
+
+#signupBtn:hover {
+    background-color: rgba(255, 255, 255, 0.589);
+}
+
+#loginBtn {
+    margin-top: 5px;
+    width: 100%;
+}
+#loginBtn:hover {
+    background-color: rgba(255, 255, 255, 0.589);
+}
+.loginOptions {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px; 
+  
+}   
+
+.loginOptions {
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+a:hover {
+    cursor: pointer;
+}
+a {
+    position: relative;
+    margin-top: 3px;
+    text-align: right;
+
+}
+
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.password-container {
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+
+label{
+    margin: 0;
+   
+}
+
+
+
